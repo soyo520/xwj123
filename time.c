@@ -13,7 +13,7 @@ int main(void)
     time2 = h2*60+min2;
     int t;
     t = time1 - time2; 
-    printf("差值为:%dh%dmin",t/60,t%60);
+    printf("差值为:%dh%dmin\n",t/60,t%60);
     system("pause");
     return 0;
 }
